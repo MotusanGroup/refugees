@@ -1,0 +1,38 @@
+body {
+	font-family: verdana, tahoma, arial;
+}
+
+#content {
+	border: 5px solid #ddddff;
+	border-radius: 10px;
+	height: 800px;
+}
+
+.waiting {
+	pointer: wait;
+}
+
+.rfgwin {
+	width: 230px;
+	height: 150px;
+	overflow: hidden;
+}
+
+.rfgwin .listholder {
+	width: 230px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 110px;
+}
+
+span.year {
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	-ms-user-select:none; 
+	user-select:none;
+	
+	border: 5px solid #ddddff;
+	border-radius: 10px;
+	padding: 5px;
+	cursor: ew-resize; 
+}
